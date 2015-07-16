@@ -1,10 +1,10 @@
 datatype evento = entra of string*int | esci of string*int
 
-val env = [ (entra ("pippo", 8)),
+val env = [ (entra ("pippo", 13)),
             (entra ("rosa", 9)),
             (entra ("giulia", 10)),
             (esci ("giulia", 11)),
-            (esci ("pippo", 7)),
+            (esci ("pippo", 14)),
             (esci ("rosa", 18))]
 
 local
